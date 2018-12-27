@@ -41,16 +41,18 @@
   content: '';
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 254px;
-  left: 30%;
-  top: 10%;
-  margin-left: -168px;
-  margin-top: -168px;
-  background-image: url(yellow-bar.png);
   background-size: 100%;
+  background-color: #F6DD76;
+  opacity: .5;
+  margin: 0 auto;
+  width: 100%;
+  height: 6em;
+  padding: 10px;
+}
+.wrapper-inner-name {
+  margin: 0 .7em;
+  width: 100%;
+  position: relative;
 }
 .triangle-pattern {
   position: fixed;
